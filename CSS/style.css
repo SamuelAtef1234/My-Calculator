@@ -61,6 +61,10 @@ body{
     transition: 0.3s ease-in-out;
 }
 
+.calculator_row button i {
+    pointer-events: none;
+}
+
 @media (max-width: 767px) {
     .calculator_container .calculator_row button{
         margin: 0;
