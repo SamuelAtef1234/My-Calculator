@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/normilaze.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="calculator_container" id="calculator_container">
+        <div id="display_area" class="display-area"></div>
+        <div class="calculator_row">
+            <button id="clear">C</button>
+            <button>(</button>
+            <button>)</button>
+            <button id="del"><i class="fa-solid fa-delete-left"></i></button>
+        </div>
+        <div class="calculator_row">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>x</button>
+        </div>
+        <div class="calculator_row">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>&minus;</button>
+        </div>
+        <div class="calculator_row">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>&plus;</button>
+        </div>
+        <div class="calculator_row">
+            <button class="equal">&equals;</button>
+            <button>0</button>
+            <button>.</button>
+            <button>&div;</button>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/15.2.0/math.js" integrity="sha512-KH9TdlfQlqMVsumZjEuH4piOxtoeBFC3ZQsp4sVNjYK30lwzLJcOWDa+L7Yg8VXIZ6WRynKML/fDCbZUi8gq3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
